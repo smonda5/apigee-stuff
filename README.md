@@ -11,7 +11,7 @@ Node v8.11.1 or higher. Find them [here](https://nodejs.org/ja/blog/release/v8.1
 1. Make sure node is installed.To check, run `node -v` at your command prompt.
 2. Clone this repo.
 3. Update /config/apigeeConfigs.json file with your details. You need to pass the:
-    1. Apigee management API *bearer token*. If you don't know how to generate a token, read instructions [here](https://docs.apigee.com/api-platform/system-administration/management-api-tokens).
+    1. Apigee management API **bearer token**. If you don't know how to generate a token, read instructions [here](https://docs.apigee.com/api-platform/system-administration/management-api-tokens).
     2. **Organization name**.
     3. **Environment name**.
     4. Either **keyvaluemaps** or **targetservers** as the resource.

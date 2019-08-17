@@ -4,7 +4,6 @@ const config = require('./config/apigeeConfigs.json')
 // Declare constants
 const token = config.token;
 const url = `${config.baseUrl}/organizations/${config.org}/environments/${config.env}/${config.resource}`;
-console.log("url is "+url);
 
 // Arrow function implementation. The below statement is exactly same as the function expression var foo = function() {}
 var getResources = () => {
@@ -65,6 +64,7 @@ var getResourceDetails = (resourcesArr) => {
   })
 }
 
+// chain the above two Promises
 getResources()
 .then(getResourceDetails)
 .catch(err => {
