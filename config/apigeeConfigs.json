@@ -1,0 +1,7 @@
+{
+  "token" : "Bearer <token>",
+  "baseUrl" : "https://api.enterprise.apigee.com/v1",
+  "org": "<Your org>",
+  "env": "<Your environment>",
+  "resource": "<keyvaluemaps || targetservers>"
+}

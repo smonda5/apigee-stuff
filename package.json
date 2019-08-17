@@ -1,0 +1,19 @@
+{
+  "name": "apigee-stuff",
+  "version": "1.0.0",
+  "description": "Simple app to use Apigee APIs too get some data",
+  "main": "apigeeCall.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apigee",
+    "kvm",
+    "targetservers"
+  ],
+  "author": "Sushobhan Mondal",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
